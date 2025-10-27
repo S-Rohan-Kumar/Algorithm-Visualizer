@@ -8,13 +8,11 @@
 </head>
 <body>
   <div class="container">
-    <!-- Header -->
     <div class="header">
       <h1>Array Algorithm Visualizer</h1>
       <p>Watch sorting algorithms come to life with interactive visualizations</p>
     </div>
 
-    <!-- Control Panel -->
     <div class="control-panel">
       <div class="controls-grid">
         <div class="control-group">
@@ -58,7 +56,6 @@
       </div>
     </div>
 
-    <!-- Visualizer Container -->
     <div class="visualizer-container">
       <div class="visualizer-header">
         <h2 class="visualizer-title">Array Visualization</h2>
@@ -68,55 +65,59 @@
         </div>
       </div>
 
-      <div class="array-container">
-        <div class="array-wrapper">
-          <!-- Demo Array -->
-          <div class="array-display demo-array">
-            <div class="array-box value-medium">23</div>
-            <div class="array-box value-low comparing">8</div>
-            <div class="array-box value-high">45</div>
-            <div class="array-box value-medium swapping">12</div>
-            <div class="array-box value-highest">67</div>
-            <div class="array-box value-low">3</div>
-            <div class="array-box value-high sorted">56</div>
-            <div class="array-box value-medium">34</div>
-            <div class="array-box value-low">9</div>
-            <div class="array-box value-highest pivot">78</div>
-            <div class="array-box value-medium">29</div>
-            <div class="array-box value-high">41</div>
+      <div class="main-content-wrapper">
+
+        <div class="visualization-area">
+          <div class="array-container">
+            <div class="array-wrapper">
+              <div class="array-display demo-array">
+                <div class="array-box value-medium">23</div>
+                <div class="array-box value-low comparing">8</div>
+                <div class="array-box value-high">45</div>
+                <div class="array-box value-medium swapping">12</div>
+                <div class="array-box value-highest">67</div>
+                <div class="array-box value-low">3</div>
+                <div class="array-box value-high sorted">56</div>
+                <div class="array-box value-medium">34</div>
+                <div class="array-box value-low">9</div>
+                <div class="array-box value-highest pivot">78</div>
+                <div class="array-box value-medium">29</div>
+                <div class="array-box value-high">41</div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="snippet">Bubble Sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements and swaps them if they are in the wrong order. The pass through the</div>
+        </div>
+
+        <div class="sidebar-area">
+          <div class="legend">
+            <div class="legend-title">Element States</div>
+            <div class="legend-items">
+              <div class="legend-item">
+                <div class="legend-box normal"></div>
+                <span class="legend-text">Normal Element</span>
+              </div>
+              <div class="legend-item">
+                <div class="legend-box comparing"></div>
+                <span class="legend-text">Being Compared</span>
+              </div>
+              <div class="legend-item">
+                <div class="legend-box swapping"></div>
+                <span class="legend-text">Being Swapped</span>
+              </div>
+              <div class="legend-item">
+                <div class="legend-box sorted"></div>
+                <span class="legend-text">Sorted Position</span>
+              </div>
+              <div class="legend-item">
+                <div class="legend-box pivot"></div>
+                <span class="legend-text">Pivot Element</span>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-
-      <!-- Legend -->
-      <div class="legend">
-        <div class="legend-title">Element States</div>
-        <div class="legend-items">
-          <div class="legend-item">
-            <div class="legend-box normal"></div>
-            <span class="legend-text">Normal Element</span>
-          </div>
-          <div class="legend-item">
-            <div class="legend-box comparing"></div>
-            <span class="legend-text">Being Compared</span>
-          </div>
-          <div class="legend-item">
-            <div class="legend-box swapping"></div>
-            <span class="legend-text">Being Swapped</span>
-          </div>
-          <div class="legend-item">
-            <div class="legend-box sorted"></div>
-            <span class="legend-text">Sorted Position</span>
-          </div>
-          <div class="legend-item">
-            <div class="legend-box pivot"></div>
-            <span class="legend-text">Pivot Element</span>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </div>
-  <script src="script.js"></script>
+        
+      </div> </div> </div> <script src="script.js"></script>
 </body>
 </html>
